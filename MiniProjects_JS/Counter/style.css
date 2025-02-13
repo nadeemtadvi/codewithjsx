@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(57 57 57);
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  max-width: 1800px;
+  margin: 0 auto;
+  gap: 4rem;
+}
+.container-box {
+  width: 100%;
+  border: 1px solid #f7f7f7;
+  padding: 5rem 4rem;
+  border-radius: 0px;
+  box-shadow: 14px 14px 0px 0px #141414;
+  background-color: rgb(124, 124, 124);
+}
+
+.button-group,
+.button-group-bmi {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px #141414;
+}
+.add,
+.hexcolor {
+  background-color: rgb(248, 74, 31);
+}
+.sub,
+.button-gen button,
+.button-bmi {
+  background-color: rgba(40, 40, 252, 0.959);
+}
+.reset,
+.button-reset {
+  background-color: rgba(34, 218, 34, 0.945);
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1.82rem 0;
+  color: white;
+  text-decoration: underline;
+}
+h4 {
+  display: flex;
+  align-items: center;
+}
+h4 span {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 2rem 0;
+  width: fit-content;
+  background-color: yellow;
+  padding: 1rem;
+  display: inline-block;
+  width: 100px;
+  border: 2px solid #ffffff;
+}
+.hexcolor {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+}
+h5 {
+  margin: 3rem 0;
+  font-size: 2rem;
+  background-color: white;
+  padding: 1rem;
+  width: fit-content;
+  color: #f84a1f;
+}
+.input-form,
+.input-filter,
+.input-bmi {
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px 0px #141414;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.vowelbtn {
+  background-color: rgba(40, 40, 252, 0.959);
+}
+.list {
+  position: absolute;
+  width: 300px;
+}
+
+.list li {
+  padding: 0.82rem;
+  list-style: none;
+  background-color: #393939;
+  display: block;
+  color: #ffffff;
+  font-size: 1.42rem;
+}
+
+.list li:hover {
+  background-color: #b3b3b3;
+  color: #393939;
+}
+
+.p-bmi {
+  margin-top: 2rem;
+  height: 8rem;
+  background-color: #ffffff;
+  padding: 1.4rem;
+  font-size: 1.82rem;
+}
+.p-bmi span {
+  background-color: black;
+  color: #fff;
+  margin: 0.5rem;
+}
+.counter-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+.counter {
+  padding: 1rem;
+  color: white;
+  background-color: #393939;
+  font-size: 1.84rem;
+  width: 100%;
+  text-align: center;
+}
